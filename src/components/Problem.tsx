@@ -46,7 +46,7 @@ export default function Problem() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, margin: "-100px" }}
                         transition={{ duration: 0.5, delay: 0.1 }}
-                        className="p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-all flex flex-col items-start"
+                        className="p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-all flex flex-col items-start transform-gpu backface-hidden"
                     >
                         <div className="w-12 h-12 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 flex items-center justify-center mb-6">
                             <Brain className="w-6 h-6" />
@@ -62,7 +62,7 @@ export default function Problem() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, margin: "-100px" }}
                         transition={{ duration: 0.5, delay: 0.2 }}
-                        className="p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-all flex flex-col items-start"
+                        className="p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-all flex flex-col items-start transform-gpu backface-hidden"
                     >
                         <div className="w-12 h-12 rounded-xl bg-yellow-500/10 border border-yellow-500/20 text-yellow-400 flex items-center justify-center mb-6">
                             <Clock className="w-6 h-6" />
@@ -78,7 +78,7 @@ export default function Problem() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, margin: "-100px" }}
                         transition={{ duration: 0.5, delay: 0.3 }}
-                        className="p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-all flex flex-col items-start"
+                        className="p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-all flex flex-col items-start transform-gpu backface-hidden"
                     >
                         <div className="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-400 flex items-center justify-center mb-6">
                             <TrendingDown className="w-6 h-6" />

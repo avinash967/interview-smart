@@ -43,7 +43,7 @@ export default function FAQ() {
                     {faqs.map((faq, i) => (
                         <div
                             key={i}
-                            className={`rounded-2xl overflow-hidden transition-colors duration-300 border ${openIndex === i ? "bg-neutral-900 border-white/20" : "bg-neutral-900/40 border-white/5 hover:border-white/10"
+                            className={`rounded-2xl overflow-hidden transition-colors duration-300 border transform-gpu backface-hidden ${openIndex === i ? "bg-neutral-900 border-white/20" : "bg-neutral-900/40 border-white/5 hover:border-white/10"
                                 }`}
                         >
                             <button

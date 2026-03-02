@@ -64,7 +64,7 @@ export default function Testimonials() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: "-100px" }}
                             transition={{ duration: 0.6, delay: i * 0.1 }}
-                            className="p-8 md:p-10 rounded-2xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-all flex flex-col justify-between"
+                            className="p-8 md:p-10 rounded-2xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-all flex flex-col justify-between transform-gpu backface-hidden"
                         >
                             <p className="text-lg md:text-xl font-medium tracking-tight leading-relaxed mb-12 text-neutral-300">
                                 "{t.quote}"
