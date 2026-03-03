@@ -27,7 +27,7 @@ export default function FAQ() {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     return (
-        <section id="faq" className="w-full bg-black py-40 px-6 md:px-12 relative z-10">
+        <section id="faq" className="w-full bg-transparent py-40 px-6 md:px-12 relative z-10">
             <div className="max-w-[800px] mx-auto">
                 <div className="flex flex-col items-center mb-16">
                     <div className="flex items-center gap-2 px-4 py-2 rounded-full border border-[#f97316]/30 bg-[#f97316]/10 text-[#f97316] text-xs font-semibold uppercase tracking-widest mb-6">

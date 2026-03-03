@@ -40,7 +40,7 @@ const features = [
 
 export default function Features() {
     return (
-        <section id="features" className="w-full bg-black py-40 px-6 md:px-12 relative flex flex-col items-center">
+        <section id="features" className="w-full bg-transparent py-40 px-6 md:px-12 relative flex flex-col items-center">
             <div className="max-w-[1200px] w-full mx-auto">
                 <div className="flex flex-col items-center text-center mb-24">
                     <h2 className="text-4xl md:text-6xl font-normal tracking-tight mb-8 max-w-4xl leading-[1.05] flex flex-col items-center justify-center text-white">
@@ -55,7 +55,7 @@ export default function Features() {
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: "-100px" }}
-                            transition={{ duration: 0.6, delay: i * 0.1, ease: "easeOut" }}
+                            transition={{ duration: 0.6, delay: 0.2 + (i * 0.1), ease: "easeOut" }}
                             className={`group relative p-8 md:p-10 rounded-2xl bg-neutral-900/40 border border-white/5 hover:border-white/10 hover:bg-neutral-900/60 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl transform-gpu backface-hidden ${feature.className}`}
                         >
                             <div className={`p-4 rounded-xl w-fit mb-6 transition-all duration-300 ${feature.iconBg} ${feature.shadow}`}>

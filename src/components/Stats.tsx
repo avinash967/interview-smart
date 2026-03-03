@@ -5,7 +5,7 @@ import { TrendingUp, Users, Cpu, Rocket } from "lucide-react";
 
 export default function Stats() {
     return (
-        <section className="w-full bg-black py-32 px-6 md:px-12 relative overflow-hidden">
+        <section className="w-full bg-transparent py-32 px-6 md:px-12 relative overflow-hidden">
             <div className="max-w-[1200px] mx-auto relative z-10">
 
                 {/* Section Header */}

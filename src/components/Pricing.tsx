@@ -62,7 +62,7 @@ export default function Pricing() {
     ];
 
     return (
-        <section id="pricing" className="w-full bg-black py-32 px-6 md:px-12 relative overflow-hidden">
+        <section id="pricing" className="w-full bg-transparent py-32 px-6 md:px-12 relative overflow-hidden">
             <div className="max-w-[1200px] mx-auto relative z-10">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-6xl font-black tracking-tighter text-white mb-6 leading-[1.1]">

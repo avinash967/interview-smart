@@ -43,7 +43,7 @@ const testimonials = [
 
 export default function Testimonials() {
     return (
-        <section className="w-full bg-black py-40 px-6 md:px-12 relative overflow-hidden">
+        <section className="w-full bg-transparent py-40 px-6 md:px-12 relative overflow-hidden">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[500px] bg-white/5 rounded-[100%] blur-[120px] pointer-events-none"></div>
 
             <div className="max-w-[1400px] mx-auto relative z-10 flex flex-col items-center">
