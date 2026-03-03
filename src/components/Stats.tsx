@@ -38,7 +38,7 @@ export default function Stats() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, margin: "-50px" }}
                         transition={{ duration: 0.5, delay: 0.1 }}
-                        className="p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-colors flex flex-col items-center text-center transform-gpu backface-hidden"
+                        className="opacity-0 p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-colors flex flex-col items-center text-center transform-gpu backface-hidden"
                     >
                         <TrendingUp className="w-6 h-6 text-[#f97316] mb-6" />
                         <div className="text-6xl font-black text-white tracking-tighter mb-4">
@@ -55,7 +55,7 @@ export default function Stats() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, margin: "-50px" }}
                         transition={{ duration: 0.5, delay: 0.2 }}
-                        className="p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-colors flex flex-col items-center text-center transform-gpu backface-hidden"
+                        className="opacity-0 p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-colors flex flex-col items-center text-center transform-gpu backface-hidden"
                     >
                         <Users className="w-6 h-6 text-[#f97316] mb-6" />
                         <div className="text-6xl font-black text-white tracking-tighter mb-4">
@@ -72,7 +72,7 @@ export default function Stats() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, margin: "-50px" }}
                         transition={{ duration: 0.5, delay: 0.3 }}
-                        className="p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-colors flex flex-col items-center text-center transform-gpu backface-hidden"
+                        className="opacity-0 p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-colors flex flex-col items-center text-center transform-gpu backface-hidden"
                     >
                         <Cpu className="w-6 h-6 text-[#f97316] mb-6" />
                         <div className="text-6xl font-black text-white tracking-tighter mb-4">
@@ -89,7 +89,7 @@ export default function Stats() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, margin: "-50px" }}
                         transition={{ duration: 0.5, delay: 0.4 }}
-                        className="p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-colors flex flex-col items-center text-center transform-gpu backface-hidden"
+                        className="opacity-0 p-8 rounded-3xl bg-neutral-900/40 border border-white/5 hover:border-white/10 transition-colors flex flex-col items-center text-center transform-gpu backface-hidden"
                     >
                         <Rocket className="w-6 h-6 text-[#f97316] mb-6" />
                         <div className="text-6xl font-black text-white tracking-tighter mb-4">

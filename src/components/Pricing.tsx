@@ -108,7 +108,7 @@ export default function Pricing() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: "-100px" }}
                             transition={{ duration: 0.5, delay: i * 0.1 }}
-                            className={`p-8 rounded-3xl border transition-all transform-gpu backface-hidden ${plan.featured
+                            className={`opacity-0 p-8 rounded-3xl border transition-all transform-gpu backface-hidden ${plan.featured
                                 ? "bg-gradient-to-b from-neutral-900/80 to-black border-[#f97316]/40 shadow-[0_0_40px_rgba(249,115,22,0.1)] relative"
                                 : "bg-neutral-900/40 border-white/5 hover:border-white/10"
                                 }`}

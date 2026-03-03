@@ -56,7 +56,7 @@ export default function Features() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: "-100px" }}
                             transition={{ duration: 0.6, delay: 0.2 + (i * 0.1), ease: "easeOut" }}
-                            className={`group relative p-8 md:p-10 rounded-2xl bg-neutral-900/40 border border-white/5 hover:border-white/10 hover:bg-neutral-900/60 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl transform-gpu backface-hidden ${feature.className}`}
+                            className={`opacity-0 group relative p-8 md:p-10 rounded-2xl bg-neutral-900/40 border border-white/5 hover:border-white/10 hover:bg-neutral-900/60 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl transform-gpu backface-hidden ${feature.className}`}
                         >
                             <div className={`p-4 rounded-xl w-fit mb-6 transition-all duration-300 ${feature.iconBg} ${feature.shadow}`}>
                                 {feature.icon}
