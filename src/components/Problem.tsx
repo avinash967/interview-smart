@@ -26,7 +26,7 @@ export default function Problem() {
                         transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
                         className="text-4xl md:text-6xl font-black tracking-tighter text-white mb-6 leading-[1.1] uppercase"
                     >
-                        Interviews Are <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">Broken</span>
+                        The Interview Game <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">Has Changed</span>
                     </motion.h2>
 
                     <motion.p
@@ -36,7 +36,7 @@ export default function Problem() {
                         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                         className="text-neutral-400 text-lg md:text-xl font-medium max-w-3xl mb-16 tracking-tight leading-relaxed"
                     >
-                        Job seekers face intense pressure in live interviews. One moment of anxiety or a blank mind can cost them the role — even when they're qualified.
+                        The interview process is more competitive than ever. AI-native tools are reshaping how candidates prepare — Interview Smart brings that advantage to the interview itself.
                     </motion.p>
                 </div>
 
