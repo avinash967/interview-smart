@@ -42,10 +42,9 @@ export default function Features() {
     return (
         <section id="features" className="w-full bg-transparent py-40 px-6 md:px-12 relative flex flex-col items-center">
             <div className="max-w-[1200px] w-full mx-auto">
-                <div className="flex flex-col items-center text-center mb-24">
-                    <h2 className="text-4xl md:text-6xl font-normal tracking-tight mb-8 max-w-4xl leading-[1.05] flex flex-col items-center text-center text-white">
-                        <span>Everything you need</span>
-                        <span>for <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">better interviews</span></span>
+                <div className="flex flex-col items-center text-center mb-24 w-full overflow-visible">
+                    <h2 className="text-[1.75rem] sm:text-4xl md:text-[2.5rem] lg:text-5xl xl:text-6xl font-black tracking-tighter mb-8 w-full leading-[1.1] text-center text-white uppercase whitespace-normal lg:whitespace-nowrap">
+                        Everything you need for <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">better interviews</span>
                     </h2>
                 </div>
 
