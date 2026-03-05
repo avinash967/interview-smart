@@ -66,7 +66,7 @@ export default function Pricing() {
             <div className="max-w-[1200px] mx-auto relative z-10">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-6xl font-black tracking-tighter text-white mb-6 leading-[1.1]">
-                        Simple, Transparent Pricing
+                        Simple, Transparent <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">Pricing</span>
                     </h2>
                     <p className="text-neutral-400 text-lg md:text-xl font-medium max-w-2xl mx-auto mb-10">
                         Start free. Upgrade when you're ready to go all-in on your job search.

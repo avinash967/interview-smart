@@ -31,9 +31,9 @@ export default function UseCases() {
             <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row gap-16 lg:gap-24 items-center lg:items-start">
                 {/* Left Side: Header */}
                 <div className="w-full lg:w-1/3 pt-4 lg:pt-12 text-center lg:text-left sticky top-32">
-                    <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase mb-6 leading-[0.9]">
+                    <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase mb-6 leading-[0.9] text-white">
                         Built for <br className="hidden lg:block" />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-white">every professional</span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">every professional</span>
                     </h2>
                     <p className="text-neutral-400 text-lg md:text-xl font-medium max-w-xl mx-auto lg:mx-0">
                         Whether you're facing technical deep-dives or behavioral rounds, Interview Smart adapts to your domain.

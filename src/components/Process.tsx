@@ -28,10 +28,10 @@ export default function Process() {
             <div className="max-w-[1400px] mx-auto relative z-10">
                 <div className="flex flex-col md:flex-row gap-16 md:gap-32">
                     <div className="md:w-1/3">
-                        <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase mb-6 md:sticky top-32 leading-[0.9]">
+                        <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase mb-6 md:sticky top-32 leading-[0.9] text-white">
                             The Engine<br />
                             <span className="text-neutral-600">Behind</span><br />
-                            The Magic
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">The Magic</span>
                         </h2>
                     </div>
 

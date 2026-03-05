@@ -26,7 +26,7 @@ export default function Problem() {
                         transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
                         className="text-4xl md:text-6xl font-black tracking-tighter text-white mb-6 leading-[1.1] uppercase"
                     >
-                        Interviews Are <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-white">Broken</span>
+                        Interviews Are <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">Broken</span>
                     </motion.h2>
 
                     <motion.p

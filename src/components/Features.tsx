@@ -44,7 +44,7 @@ export default function Features() {
             <div className="max-w-[1200px] w-full mx-auto">
                 <div className="flex flex-col items-center text-center mb-24">
                     <h2 className="text-4xl md:text-6xl font-normal tracking-tight mb-8 max-w-4xl leading-[1.05] flex flex-col items-center justify-center text-white">
-                        Everything you need <br /> for better interviews
+                        Everything you need <br /> for <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">better interviews</span>
                     </h2>
                 </div>
 

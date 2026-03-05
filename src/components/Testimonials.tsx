@@ -48,8 +48,8 @@ export default function Testimonials() {
 
             <div className="max-w-[1400px] mx-auto relative z-10 flex flex-col items-center">
                 <div className="text-center mb-20 md:mb-32">
-                    <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase mb-6 leading-[0.9]">
-                        Trusted by <br /><span className="text-[#f97316]">Ambitious Professionals</span>
+                    <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase mb-6 leading-[0.9] text-white">
+                        Trusted by <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">Ambitious Professionals</span>
                     </h2>
                     <p className="text-neutral-400 text-lg md:text-xl font-medium max-w-2xl mx-auto">
                         Join thousands of job seekers who've transformed their interview performance.

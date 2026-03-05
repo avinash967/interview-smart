@@ -32,7 +32,7 @@ export default function SupportedPlatforms() {
                     transition={{ delay: 0.1 }}
                     className="text-4xl md:text-[2.75rem] font-black text-white tracking-tighter uppercase mb-6"
                 >
-                    Works where you do
+                    Works <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">where you do</span>
                 </motion.h2>
 
                 <motion.p
