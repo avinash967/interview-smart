@@ -43,9 +43,12 @@ export default function Features() {
         <section id="features" className="w-full bg-transparent py-40 px-6 md:px-12 relative flex flex-col items-center">
             <div className="max-w-[1200px] w-full mx-auto">
                 <div className="flex flex-col items-center text-center mb-24 w-full overflow-visible">
-                    <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-8 w-full leading-[1.1] text-center text-white uppercase whitespace-nowrap overflow-visible">
+                    <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-6 w-full leading-[1.1] text-center text-white uppercase whitespace-nowrap overflow-visible">
                         Features for <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">better interviews</span>
                     </h2>
+                    <p className="text-neutral-400 text-lg md:text-xl font-medium max-w-3xl tracking-tight leading-relaxed">
+                        Navigate complex technical discussions with confidence. Interview Smart acts as your silent partner, providing the exact context you need, exactly when you need it.
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 auto-rows-auto gap-6 md:gap-8">
