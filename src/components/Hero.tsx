@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import AbstractCanvas from "./AbstractCanvas";
 
@@ -49,10 +50,12 @@ export default function Hero() {
                         An Interview Copilot to transform your interview process with real-time transcription, AI analysis, and smart insights. Perfect for technical interviews, HR screenings and coding assessments.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row justify-center gap-6 w-full sm:w-auto px-4">
-                        <button className="w-full sm:w-auto px-10 py-4 bg-[#f97316] text-[#000000] text-sm font-bold uppercase tracking-[0.05em] rounded-sm hover:bg-[#ea580c] transition-colors">
-                            Get Started
-                        </button>
+                    <div className="flex flex-col sm:flex-row justify-center gap-6 w-full sm:w-auto px-4 z-20 relative">
+                        <Link href="https://realtime-interview-copilot.onrender.com/auth" className="w-full sm:w-auto">
+                            <button className="w-full sm:w-auto px-10 py-4 bg-[#f97316] text-[#000000] text-sm font-bold uppercase tracking-[0.05em] rounded-sm hover:bg-[#ea580c] transition-colors">
+                                Get Started
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
