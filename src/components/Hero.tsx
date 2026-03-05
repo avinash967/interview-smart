@@ -51,7 +51,7 @@ export default function Hero() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row justify-center gap-6 w-full sm:w-auto px-4 z-20 relative">
-                        <Link href="https://realtime-interview-copilot.onrender.com/auth" className="w-full sm:w-auto">
+                        <Link href="https://realtime-interview-copilot.onrender.com/auth" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                             <button className="w-full sm:w-auto px-10 py-4 bg-[#f97316] text-[#000000] text-sm font-bold uppercase tracking-[0.05em] rounded-sm hover:bg-[#ea580c] transition-colors">
                                 Get Started
                             </button>

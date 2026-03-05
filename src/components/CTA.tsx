@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Zap, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function CTA() {
     return (
@@ -48,10 +49,12 @@ export default function CTA() {
                     transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
                     className="flex flex-col items-center w-full px-4"
                 >
-                    <button className="flex items-center justify-center gap-3 w-full sm:w-auto px-10 py-5 bg-black text-white text-base md:text-[1.1rem] font-bold rounded-2xl hover:scale-105 transition-transform hover:shadow-[0_0_40px_rgba(0,0,0,0.5)] group">
-                        Get Started Free
-                        <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                    </button>
+                    <Link href="https://realtime-interview-copilot.onrender.com/auth" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                        <button className="flex items-center justify-center gap-3 w-full sm:w-auto px-10 py-5 bg-black text-white text-base md:text-[1.1rem] font-bold rounded-2xl hover:scale-105 transition-transform hover:shadow-[0_0_40px_rgba(0,0,0,0.5)] group">
+                            Get Started Free
+                            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                        </button>
+                    </Link>
 
                     <p className="text-white/70 text-sm md:text-base mt-8 font-medium tracking-wide">
                         Works on Chrome, Firefox & Edge · Google Meet, Zoom, Teams & Skype
