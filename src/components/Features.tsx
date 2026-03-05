@@ -45,8 +45,7 @@ export default function Features() {
                 <div className="flex flex-col items-center text-center mb-24">
                     <h2 className="text-4xl md:text-6xl font-normal tracking-tight mb-8 max-w-4xl leading-[1.05] flex flex-col items-center text-center text-white">
                         <span>Everything you need</span>
-                        <span className="block mt-[-0.2em] mb-[-0.2em]">for</span>
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">better interviews</span>
+                        <span>for <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ea580c] to-[#fdba74]">better interviews</span></span>
                     </h2>
                 </div>
 
